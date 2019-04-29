@@ -28,7 +28,7 @@ namespace TabPanel
             CurrentTime = DateTime.Now;
             InitializeComponent();
             DateTimeLbl.Content = CurrentTime.ToLongDateString();
-
+            DateTimeLbl2.Content = CurrentTime.ToLongDateString();
 
         }
     }
