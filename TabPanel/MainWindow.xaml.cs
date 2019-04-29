@@ -20,9 +20,16 @@ namespace TabPanel
     /// </summary>
     public partial class MainWindow : Window
     {
+        public DateTime CurrentTime { get; set; }
+        
         public MainWindow()
         {
+            
+            CurrentTime = DateTime.Now;
             InitializeComponent();
+            DateTimeLbl.Content = CurrentTime.ToLongDateString();
+
+
         }
     }
 }

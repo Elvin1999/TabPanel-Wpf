@@ -5,18 +5,120 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TabPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400">
+        Title="MainWindow" Height="600" Width="400">
     <Grid Background="Aqua">
 
         <StackPanel Orientation="Horizontal">
-            <TabControl Margin="10,10,0,0">
-                <TabItem Header="Grammar" Background="Yellow">
-                    <TextBlock>Initial clock</TextBlock>
+            <TabControl Margin="10,10,0,0" Width="350">
+                <TabItem Header="Grammar" Background="Yellow" Width="150">
+
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel Width="160" Height="200" Margin="10,-300,0,0">
+
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Initial clock</TextBlock>
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Teacher</TextBlock>
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Servic type</TextBlock>
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Level</TextBlock>
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Group</TextBlock>
+                            <TextBlock FontSize="18" Margin="10,10,0,0">Finish time</TextBlock>
+                         
+                        </StackPanel>
+                        <StackPanel
+                             Width="160" Height="220" Margin="10,-300,0,0" >
+                            <Label Name="DateTimeLbl" Width="160" Height="40">
+                                
+                            </Label>
+                            <ComboBox Height="30" Margin="0,2,0,0">
+                                <ComboBoxItem>
+                                    Elvin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Anar
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Ismayil
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Samir
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Height="30" Margin="0,5,0,0">
+                                <ComboBoxItem>
+                                    Elvin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Anar
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Ismayil
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Samir
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Height="30" Margin="0,5,0,0">
+                                <ComboBoxItem>
+                                    Elvin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Anar
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Ismayil
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Samir
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Height="30" Margin="0,5,0,0">
+                                <ComboBoxItem>
+                                    Elvin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Anar
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Ismayil
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Samir
+                                </ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Height="30" Margin="0,5,0,0">
+                                <ComboBoxItem>
+                                    Elvin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Anar
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Ismayil
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Samir
+                                </ComboBoxItem>
+                            </ComboBox>
+
+                        </StackPanel>
+
+                      
+                    </StackPanel>
+                    
+                   
                 </TabItem>
-                <TabItem Header="Speaking" Background="Red">
+                <TabItem Header="Speaking" Background="Red" Width="150">
                     <TextBlock>End clock</TextBlock>
                 </TabItem>
             </TabControl>
+      
+        </StackPanel>
+
+        
+
+
+        <StackPanel Orientation="Horizontal">
+            <Button Background="Blue" Width="160" Height="40" Margin="20,500,0,0"></Button>
+            <Button Background="Blue" Width="160" Height="40" Margin="10,500,0,0"></Button>
         </StackPanel>
         
     </Grid>
