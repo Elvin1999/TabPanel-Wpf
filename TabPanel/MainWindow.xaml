@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:TabPanel"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="400">
-    <Grid Background="Aqua">
+    <Grid Background="DeepSkyBlue">
 
         <StackPanel Orientation="Horizontal">
             <TabControl Margin="10,10,0,0" Width="350">
-                <TabItem Header="Grammar" Background="Yellow" Width="150">
+                <TabItem Header="Grammar" Background="DeepSkyBlue" Width="150">
 
                     <StackPanel Orientation="Horizontal">
                         <StackPanel Width="160" Height="200" Margin="10,-300,0,0">
@@ -119,7 +119,7 @@
                     </StackPanel>
 
                 </TabItem>
-                <TabItem Header="Speaking" Background="Red" Width="150">
+                <TabItem Header="Speaking" Background="DeepSkyBlue" Width="150">
 
                     <StackPanel Orientation="Horizontal">
                         <StackPanel Width="160" Height="280" Margin="10,-265,0,0">
@@ -130,7 +130,7 @@
                             <TextBlock FontSize="18" Margin="10,10,0,0">Level</TextBlock>
                             <TextBlock FontSize="18" Margin="10,10,0,0">Group</TextBlock>
                             <TextBlock FontSize="18" Margin="10,10,0,0">Finish time</TextBlock>
-                            <CheckBox Content="Mock Time" Width="160" Height="40" Margin="10,50,0,0" Background="Aqua">
+                            <CheckBox Content="Mock Time" Width="160" Height="40" Margin="10,50,0,0" Background="DeepSkyBlue">
                                 
                             </CheckBox>
                         </StackPanel>
@@ -224,8 +224,10 @@
         </StackPanel>
 
         <StackPanel Orientation="Horizontal">
-            <Button Background="Blue" Width="160" Height="40" Margin="20,500,0,0"></Button>
-            <Button Background="Blue" Width="160" Height="40" Margin="10,500,0,0"></Button>
+            <Button Background="DeepSkyBlue" Width="160" Height="40" Margin="20,500,0,0" Content="Delete"
+                    FontSize="20"></Button>
+            <Button Background="DeepSkyBlue" Width="160" Height="40" Margin="10,500,0,0" Content="Add"
+                     FontSize="20"></Button>
         </StackPanel>
         
     </Grid>
