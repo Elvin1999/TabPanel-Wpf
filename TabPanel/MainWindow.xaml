@@ -5,10 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TabPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid Background="Aqua">
-        
-        
+
+        <StackPanel Orientation="Horizontal">
+            <TabControl Margin="10,10,0,0">
+                <TabItem Header="Grammar" Background="Yellow">
+                    <TextBlock>Initial clock</TextBlock>
+                </TabItem>
+                <TabItem Header="Speaking" Background="Red">
+                    <TextBlock>End clock</TextBlock>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
         
     </Grid>
 </Window>
